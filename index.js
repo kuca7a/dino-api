@@ -11,7 +11,8 @@ app.use(bodyParser.json());
 app.use('/dinos', dinosRoutes)
 
 app.get('/', (req, res) => {
-    res.send('Hello from homepage')
+    res.send('dinoAPI is working')
 });
 
 app.listen(PORT, () => console.log(`Server running on port: http://localhost:${PORT}`));
+
